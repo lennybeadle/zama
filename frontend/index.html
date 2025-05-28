@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onchain Riddle</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.ethers.io/lib/ethers-5.6.umd.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <p id="riddle" class="riddle-text">Loading riddle...</p>
+      <div class="input-group">
+        <input id="answerInput" type="text" placeholder="" />
+        <button id="submitBtn">send</button>
+      </div>
+      <p class="submitted">previously submitted answers: <span id="wrongAnswers">Loading...</span></p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
